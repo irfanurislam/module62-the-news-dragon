@@ -5,12 +5,12 @@ import Qzone from '../Qzone/Qzone';
 const RightNav = () => {
     return (
         <div>
-            <h2>Login with</h2>
+            <h2 className='mt-4'>Login with</h2>
             <Button className='mb-3' variant="outline-primary"> <FaGoogle /> login with google</Button>
             <Button variant="outline-secondary"><FaGithub /> login with github</Button>
         
         <div>
-            <h4>Find us on</h4>
+            <h4 className='mt-4'>Find us on</h4>
         <ListGroup>
       <ListGroup.Item><FaFacebook></FaFacebook> facebook</ListGroup.Item>
       <ListGroup.Item><FaTwitter></FaTwitter>Twitter</ListGroup.Item>
